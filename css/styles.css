@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(117, 117, 117, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: rgba(33, 150, 243, 1);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 3%;
+  margin-right: 20px;
+  padding-left: 50px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+}
+
+.title-container {
+  background-color: rgba(47, 48, 58, 1);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-items {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 50px;
+}
+
+.nav-items-fix {
+  color: black;
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  gap: 50px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-link {
+  font-family: "Roboto", sans-serif;
+  gap: 50px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-link-fix {
+  font-family: "Roboto", sans-serif;
+  color: rgba(117, 117, 117, 1);
+}
+
+.section-head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.custom-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(33, 150, 243, 1);
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 25px auto;
+  display: block;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.offer-fix {
+  margin: 0 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.services-fix {
+  margin: 0 10px;
+}
+
+.team {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.team-fix {
+  margin: 0 10px;
+}
+
+.team-back {
+  background-color: rgba(245, 244, 250, 1);
+  margin-top: 100px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.dir {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+.direction {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 5px;
+}
+
+.card {
+  flex-basis: 0px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.04),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.02), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.centrar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.port-card {
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 10px;
+  margin: 30px;
+  flex-basis: 370px;
+  text-align: center;
+}
+
+.port-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.port-btns button {
+  background-color: rgba(245, 244, 250, 1);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.custom-btn :hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+
+.port-btns :hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: white;
+}
+.nav-items :hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.contact-link :hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.footer :hover {
+  color: rgba(33, 150, 243, 1);
+}
